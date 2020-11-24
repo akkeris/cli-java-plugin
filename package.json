@@ -1,0 +1,29 @@
+{
+  "name": "cli-java-plugin",
+  "version": "0.1.0",
+  "description": "Java CLI plugin for Akkeris apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akkeris/cli-java-plugin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akkeris/cli-java-plugin/issues"
+  },
+  "homepage": "https://github.com/akkeris/cli-java-plugin#readme",
+  "dependencies": {
+    "fuzzy": "^0.1.3",
+    "inquirer": "^6.2.2",
+    "inquirer-autocomplete-prompt": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3"
+  }
+}
